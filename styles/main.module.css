@@ -1,0 +1,285 @@
+.app {
+   
+    display:flex;
+    flex-direction: row;
+    background-color: #a0ecd0;
+    height: 130vh;
+    width: 100%;
+   
+}
+.Menu{
+    width: 17%;
+    height: 99%;
+    background-color: #467586;
+    text-align: center;
+    border: 3px solid #355864;
+  }
+  .menuLabel{
+    font-size: 40px;
+    margin-top: 100%;
+  }
+  .menu1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+  .menu1 > button{
+    margin-top: 10%;
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid #355864;
+    border-radius: 5px;
+  }
+  .menu2{
+    display: flex;
+    flex-direction: column;
+  }.menu2 > button{
+    margin-top: 10%;
+    width: 15vw;
+    height: 5vh;
+    margin-left:3%;
+    border: 2px solid #355864;
+    border-radius: 5px;
+  }
+  .options{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15%;
+    text-decoration-line: underline;
+  }
+  .gray{
+    background-color: gray;
+  }
+  .green{
+    background-color: green;
+  }
+  .purple{
+    background-color: purple;
+  }
+  .pink{
+    background-color: pink;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+  .aqua{
+    background-color: aqua;
+  }
+  .finish{
+    background-color: #D9F8EC;
+  }
+  .no{
+  background-color: lightcoral;
+  }
+  .title a {
+    color: #082241;
+    text-decoration: underline;
+  }
+
+  .textAreaAdd{
+    height: 25vh;
+    width: 30vw;
+    border: 2px outset black;
+    border-radius: 5px;
+  }
+  .flexContainer2{
+    display: flex;
+    margin-left: 3%;
+  }
+  .flexContainer2 > button{
+    height: 5vh;
+      width: 5vw;
+      margin-left: 1%;
+      margin-top: 5%;
+      border: 2px outset black;
+      border-radius: 5px;
+  }
+  .flexContainer3{
+    display: flex;
+  }
+  .flexContainer3>button{
+    height: 4vh;
+    width: 15vw;
+    color: black;
+    text-align: center;
+    position:static;
+    margin-left: -95%;
+    margin-right: 100%;
+    margin-top: 40%;
+    border: 2px double black;
+    border-radius: 7px;
+  }
+  .addMenu{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    margin: -50px 0 0 -50px;
+    z-index: 1000;
+  }
+  .editMenu{
+    height:35%;
+    width: 40%;
+    border: 5px solid #355864;
+    position: absolute;
+    margin-top: 2%;
+    margin-left:20%;
+  
+    z-index: 1000;
+  }
+ .menu{
+  margin-top: 25%;
+ }
+  .editText{
+    font-size: 20px;
+      color: #355864;
+  }
+  .flexContainer1{
+    display: flex;
+  }
+  .flexContainer1 > button{
+    padding: 2%;
+    height: 40px;
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+    border: 2px double black;
+    background-color: #355864;
+  }
+  .MainBoard{
+    height: 100%;
+    width: 70%;
+    position: relative;
+   
+  }
+  .flex{
+    display: flex;
+    
+  }
+  .titleBox{
+    
+    width: 60%;
+    height: 20%;
+  }
+  .titleText{
+    color: rgb(0, 0, 0);
+    border: 2px outset rgb(245, 241, 241); 
+    border-radius: 4px;
+    background-color: white;
+    width: 60%;
+    height:30px;
+    margin-left: 2%;
+    transition: transform .2s;
+  }
+  .titleText:hover{
+    -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari 3-8 */
+  transform: scale(1.8); 
+  }
+  .labelTitile{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 2%;
+  }
+  .descriptionZone{
+    width: 50%;
+    height: 30%;
+  }
+  .description{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: -25%;
+  }
+  .textDescription{
+    
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    border: 2px outset rgb(245, 241, 241); 
+    width: 130%;
+    height: 50px;
+    overflow: scroll;
+    margin-top: -2%;
+    margin-left: -25%;
+  }
+  .flexContainerSticky{
+    display: flex;
+  }
+  .flexContainerSticky > div{
+    height: 140px;
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 3%;
+   
+  }
+  .voteMenu{
+    width: 300px;
+    height: 40%;
+    display: flex;
+  }
+  .voteMenu  > button{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: red;
+    margin-right:-22%;
+    margin-top: 33%;
+    margin-left: 8%;
+  }
+  .counter{
+    position: relative;
+    margin-top: 33%;
+    margin-left: 20%;
+  }    
+  .editApp{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  .textAreaAdd2{
+    height: 25vh;
+    width: 30vw;
+    border: 2px outset black;
+    border-radius: 5px;
+  }
+  .import{
+    margin-top: 7%;
+    text-align: center;
+  }
+  .download{
+    margin-top: 30%;
+    margin-left: 40%;
+    height: 3%;
+    width: 27%;
+    text-align: center;
+    color: black;
+     text-decoration: none;
+     background-color: rgb(217, 109, 109);
+     padding: 10px;
+     border-radius: 4px;
+  }
+  .selectBox{
+    position: fixed;
+    margin-top: -1%;
+    margin-left: 8%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    width: 83%;
+    margin-left: 5%;
+  }
+  .view{
+    background-color: #6eb1c7;
+    display: flex;
+    height: 17%;
+    width: 23%;
+    margin-left: 2%;
+  }
